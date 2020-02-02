@@ -20,6 +20,6 @@ public class CaterPillarTest {
 		assertFalse(caterPillar.fly());
 		assertTrue(caterPillar.sing());
 		assertFalse(caterPillar.swim());
-		assertFalse(caterPillar.walk());
+		assertTrue(caterPillar.walk());
 	}
 }

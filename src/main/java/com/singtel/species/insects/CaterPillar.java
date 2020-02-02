@@ -16,7 +16,7 @@ public class CaterPillar extends Animal {
 
 	public boolean walk() {
 		System.out.println(CRAWL);
-		return false;
+		return true;
 	}
 
 }

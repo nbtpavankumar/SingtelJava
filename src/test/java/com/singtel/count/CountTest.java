@@ -38,7 +38,7 @@ public class CountTest {
 
 	@Test
 	public void test_walk_count() {
-		assertEquals(8, animals.stream().filter(animal -> animal.walk()).count());
+		assertEquals(9, animals.stream().filter(animal -> animal.walk()).count());
 	}
 
 	@Test

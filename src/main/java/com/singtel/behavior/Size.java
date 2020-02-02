@@ -1,5 +1,11 @@
 package com.singtel.behavior;
 
+/**
+ * <b>Defined Sizes </b>
+ * 
+ * @author pavankumar
+ *
+ */
 public enum Size {
 
 	SMALL("Small"), LARGE("Large");

@@ -43,7 +43,7 @@ public class CountTest {
 
 	@Test
 	public void test_sing_count() {
-		assertEquals(8, animals.stream().filter(animal -> animal.sing()).count());
+		assertEquals(8, animals.stream().filter(Animal::sing).count());
 	}
 
 	@Test
